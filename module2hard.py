@@ -17,7 +17,7 @@ for i in range(len(first_range)):
             if j > k:
                 continue
             if n % p == 0:
-                codes.append([j, k])
+                codes.extend([j, k])
                 k += 1
                 continue
-    print(f'{n} - {codes}')
+    print(f'{n} - {''.join(str(el) for el in codes)}')
