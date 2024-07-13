@@ -1,6 +1,5 @@
 first_range = range(3, 21)
 second_range = range(1, 21)
-print(first_range, second_range)
 for i in range(len(first_range)):
     codes = []
     n = first_range[i]
