@@ -21,4 +21,4 @@ for i in range(len(first_range)):
                 k += 1
                 continue
     # print(f'{n} - {''.join(str(el) for el in codes)}')
-    print(n, '-', *codes)
+    print(f'{n} - {''.join([str(el) for el in codes])}')
